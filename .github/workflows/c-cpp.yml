@@ -12,7 +12,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y libvtk9-dev qt6-base-dev cmake
+        sudo apt install -y libvtk9-dev qtbase5-dev cmake
 
     - name: Build
       run: |
